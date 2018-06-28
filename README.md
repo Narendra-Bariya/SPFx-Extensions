@@ -48,11 +48,11 @@ Field Customizers(SPFx_FieldCust) and Command Sets(SPFx_LVCS)
 ## Note
 
 - If you want upload this app to SharePoint, then you need some changes in following Files:
-1.	\SPFx_AppCust\config\serve.json – Change pageUrl as per site Collection Url.
+1.	config\serve.json – Change pageUrl as per site Collection Url.
 ```
 "pageUrl":"https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx"
 ```
-2.	\SPFx_ AppCust \config\deploy-azure-storage.json – add value as per your Azure Storage.
+2.	config\deploy-azure-storage.json – add value as per your Azure Storage.
 ```
 "account": "Azure Storage Name",
 "container": "container name",

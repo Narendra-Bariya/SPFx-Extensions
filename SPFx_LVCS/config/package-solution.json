@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-lvcs-client-side-solution",
+    "id": "2a341390-c9f9-435a-adf3-e48fa72c071f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "7aa714bb-121a-4534-a1f8-f0c346dbe0d4",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-lvcs.sppkg"
+  }
+}

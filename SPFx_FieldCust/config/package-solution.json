@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-field-cust-2-client-side-solution",
+    "id": "c734638b-7744-4e8e-bbb2-2d06d1c913b5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "75f9fe18-f4da-45e4-abdb-7a956e0eb9c9",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-field-cust-2.sppkg"
+  }
+}

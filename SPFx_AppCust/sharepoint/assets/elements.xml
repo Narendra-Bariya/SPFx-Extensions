@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SpNavigation"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="2367b3a8-9afa-45e1-a192-b0d3eda07dda"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;,&quot;Bottom&quot;:&quot;Copyright © Prakash Software Solutions Pvt. Ltd. All Rights Reserved&quot;}">
+    </CustomAction>
+</Elements>

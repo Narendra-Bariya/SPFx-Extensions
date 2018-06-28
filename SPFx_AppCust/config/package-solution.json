@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sharepoint-navigation-client-side-solution",
+    "id": "711cf537-0345-4b76-b2ff-8435fba68e5f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "ed78dc53-ce08-4ed7-8a81-9b3aae50742d",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sharepoint-navigation.sppkg"
+  }
+}

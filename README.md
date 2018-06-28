@@ -3,7 +3,7 @@
 
 1)	Clone this repo by executing the following command in your console:
     
-	      git clone https://github.com/Narendra-Bariya/SPFx-Extensions.git
+        git clone https://github.com/Narendra-Bariya/SPFx-Extensions.git
 	
 2)	Navigate to the cloned repository folder which should be the same as the repository name:
 
@@ -28,9 +28,14 @@ Results:
 Note : If you want upload this app to SharePoint, then you need some changes in following Files:
 
 1)	\SPFx_AppCust\config\serve.json – Change pageUrl as per site Collection Url.
-"pageUrl":"https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx"
+
+              "pageUrl":"https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx"
+	      
 2)	\SPFx_ AppCust \config\deploy-azure-storage.json – add value as per your Azure Storage.
 
-"account": "Azure Storage Name",
-"container": "container name",
-"accessKey": "accessKey"
+
+       "account": "Azure Storage Name",
+       "container": "container name",
+       "accessKey": "accessKey"
+
+

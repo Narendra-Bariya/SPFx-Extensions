@@ -47,7 +47,7 @@ Field Customizers(SPFx_FieldCust) and Command Sets(SPFx_LVCS)
 
 ## Note
 
-- If you want upload this app to SharePoint, then you need some changes in following Files:
+- If you want upload this extensions to SharePoint, then you need some changes in following Files:
 1.	config\serve.json – Change pageUrl as per site Collection Url.
 ```
 "pageUrl":"https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx"

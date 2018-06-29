@@ -68,10 +68,10 @@ export default class SpNavigationApplicationCustomizer
                   <div class="ms-bgColor-themeDark ms-fontColor-white ${styles.top}">
                     <image class="${styles.img}" src="${this.context.pageContext.web.serverRelativeUrl}/SiteAssets/PSSPL.png"></img>
                     <ul id="zz11_RootAspMenu" class="root ms-core-listMenu-root static">
-                    <li class="static selected"><a target="_blank" href="http://payroll.prakashsoftware.in">Payroll Application</a></li>
-                    <li class="static "><a target="_blank" href="https://prakashinfotech.sharepoint.com/sites/Intranet/DevCenter/eLibrary/Forms/AllItems.aspx">Access eLibrary</a></li>
-                    <li class="static "><a target="_blank" href="https://prakashinfotech.sharepoint.com/sites/Intranet/DevCenter/InternalTrainings/Forms/AllItems.aspx">Internal Trainings</a></li>
-                    <li class="static "><a target="_blank" href="https://prakashinfotech.sharepoint.com/sites/Intranet/DevCenter/Lists/PssplDevFlow/AllItems.aspx">Psspl Developers Flow</a></li>
+                    <li class="static selected"><a target="_blank" href="https://github.com/Narendra-Bariya/SPFx-Extensions/">Payroll Application</a></li>
+                    <li class="static "><a target="_blank" href="https://github.com/Narendra-Bariya/SPFx-Extensions/">Access eLibrary</a></li>
+                    <li class="static "><a target="_blank" href="https://github.com/Narendra-Bariya/SPFx-Extensions/">Internal Trainings</a></li>
+                    <li class="static "><a target="_blank" href="https://github.com/Narendra-Bariya/SPFx-Extensions/">Developers Flow</a></li>
                     </ul>
                     // <i class="ms-Icon ms-Icon--Info" aria-hidden="true"></i>
                     // ${escape(topstring)}
